@@ -130,7 +130,7 @@ table {
 
 /*  my styles */
 :root {
-    background-color: rgb(41, 38, 49);
+    background-color: rgb(239, 245, 250);
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -168,15 +168,16 @@ h1 {
 form {
     background-color: rgb(255, 255, 255);
     height: 350px;
+    width: auto;
     padding-left: 10%;
 }
 
 form h1 {
-    padding: 3% 0 6% 0;
+    padding: 3% 0 5% 0;
 }
 
-#content    {
-background-color: rgb(239, 245, 250);
+#content {
+    width: auto;
 }
 
 #info {
@@ -264,7 +265,7 @@ div img {
     padding: 20px 0px;
 }
 
-div p {
+#norse  {
     font-family: Norse-Bold;
     font-size: 700%;
     color: white;
@@ -272,7 +273,7 @@ div p {
 
 #grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     height: auto;
     width: 80%;
     align-items: center;
