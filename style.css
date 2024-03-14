@@ -151,12 +151,12 @@ button {
     box-sizing: border-box;
 }
 
-div:first-child {}
 
-h1 {
+div h1 {
     width: 55ch;
     font-size: 30px;
     font-weight: bold;
+    padding-left: 9%;
 }
 
 /* -------------FORM-------- */
